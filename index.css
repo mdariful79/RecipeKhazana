@@ -5,7 +5,7 @@
 body {
     margin: 0;
     font-family: Inter, sans-serif;
-    background-color: #FAFAF8;
+    background-color: rgb(148, 248, 243);
 }
 
 header {
@@ -14,7 +14,7 @@ header {
     align-items: center;
     gap: 11px;
     height: 80px;
-    background-color: white;
+    background-color: #2e88b5;
     box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.06);
 }
 
@@ -77,7 +77,7 @@ ul.ingredients-list>li {
     justify-content: space-between;
     align-items: center;
     border-radius: 8px;
-    background: #F0EFEB;
+    background: #f0eceb;
     padding: 10px 28px;
 }
 
@@ -103,4 +103,23 @@ ul.ingredients-list>li {
     font-family: Inter, sans-serif;
     font-size: 0.875rem;
     cursor: pointer;
+}
+
+.suggested-recipe-container {
+    color: #475467;
+    line-height: 28px;
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+.suggested-recipe-container ul li,
+.suggested-recipe-container ol li {
+    margin-bottom: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
 }
